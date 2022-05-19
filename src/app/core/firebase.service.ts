@@ -36,7 +36,11 @@ export class FirebaseService {
         name: value.name,
         nameToSearch: value.name.toLowerCase(),
         surname: value.surname,
-        avatar: avatar
+        avatar: avatar,
+        email: value.email,
+        mobileNumber: value.mobileNumber,
+        gender: value.gender,
+        pincode:value.pincode,
       })
         .then(
           (res) => {
