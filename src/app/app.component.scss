@@ -1,0 +1,26 @@
+.page-container {
+  display: grid;
+  grid-template-columns: 60px auto;
+  height: 100%;
+  padding: 0px;
+
+  .side-bar {
+    background: #3c0193;
+
+    .nav-link {
+      color: #FFF;
+      font-size: 28px;
+    }
+  }
+}
+
+nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    outline: none; 
+}
+.nav>li>a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+}
